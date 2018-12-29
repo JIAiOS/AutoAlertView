@@ -55,6 +55,7 @@
 		D8D74B7021D74F670016F8E3 = {
 			isa = PBXGroup;
 			children = (
+				D8D74B9F21D75FE10016F8E3 /* 20181229-153611.gif */,
 				D8D74B7B21D74F670016F8E3 /* AutoAlertView */,
 				D8D74B7A21D74F670016F8E3 /* Products */,
 			);
@@ -71,7 +72,6 @@
 		D8D74B7B21D74F670016F8E3 /* AutoAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				D8D74B9F21D75FE10016F8E3 /* 20181229-153611.gif */,
 				D8D74B9521D74FAA0016F8E3 /* Alert */,
 				D8D74B7C21D74F670016F8E3 /* AppDelegate.h */,
 				D8D74B7D21D74F670016F8E3 /* AppDelegate.m */,
