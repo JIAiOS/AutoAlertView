@@ -14,6 +14,9 @@
 		D8D74B8921D74F690016F8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D74B8821D74F690016F8E3 /* Assets.xcassets */; };
 		D8D74B8C21D74F690016F8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D74B8A21D74F690016F8E3 /* LaunchScreen.storyboard */; };
 		D8D74B8F21D74F690016F8E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B8E21D74F690016F8E3 /* main.m */; };
+		D8D74B9C21D74FB30016F8E3 /* AutoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9821D74FB30016F8E3 /* AutoAlertView.m */; };
+		D8D74B9D21D74FB30016F8E3 /* NSString+LY.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9A21D74FB30016F8E3 /* NSString+LY.m */; };
+		D8D74B9E21D74FB30016F8E3 /* UIView+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9B21D74FB30016F8E3 /* UIView+MRExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		D8D74B8B21D74F690016F8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8D74B8D21D74F690016F8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8D74B8E21D74F690016F8E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8D74B9621D74FB30016F8E3 /* AutoAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoAlertView.h; sourceTree = "<group>"; };
+		D8D74B9721D74FB30016F8E3 /* NSString+LY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LY.h"; sourceTree = "<group>"; };
+		D8D74B9821D74FB30016F8E3 /* AutoAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoAlertView.m; sourceTree = "<group>"; };
+		D8D74B9921D74FB30016F8E3 /* UIView+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MRExtension.h"; sourceTree = "<group>"; };
+		D8D74B9A21D74FB30016F8E3 /* NSString+LY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LY.m"; sourceTree = "<group>"; };
+		D8D74B9B21D74FB30016F8E3 /* UIView+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MRExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +69,7 @@
 		D8D74B7B21D74F670016F8E3 /* AutoAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				D8D74B9521D74FAA0016F8E3 /* Alert */,
 				D8D74B7C21D74F670016F8E3 /* AppDelegate.h */,
 				D8D74B7D21D74F670016F8E3 /* AppDelegate.m */,
 				D8D74B7F21D74F670016F8E3 /* ViewController.h */,
@@ -72,6 +82,19 @@
 				D8D74B8521D74F670016F8E3 /* AutoAlertView.xcdatamodeld */,
 			);
 			path = AutoAlertView;
+			sourceTree = "<group>";
+		};
+		D8D74B9521D74FAA0016F8E3 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				D8D74B9621D74FB30016F8E3 /* AutoAlertView.h */,
+				D8D74B9821D74FB30016F8E3 /* AutoAlertView.m */,
+				D8D74B9721D74FB30016F8E3 /* NSString+LY.h */,
+				D8D74B9A21D74FB30016F8E3 /* NSString+LY.m */,
+				D8D74B9921D74FB30016F8E3 /* UIView+MRExtension.h */,
+				D8D74B9B21D74FB30016F8E3 /* UIView+MRExtension.m */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D74B8721D74F670016F8E3 /* AutoAlertView.xcdatamodeld in Sources */,
+				D8D74B9E21D74FB30016F8E3 /* UIView+MRExtension.m in Sources */,
 				D8D74B8121D74F670016F8E3 /* ViewController.m in Sources */,
 				D8D74B8F21D74F690016F8E3 /* main.m in Sources */,
+				D8D74B9C21D74FB30016F8E3 /* AutoAlertView.m in Sources */,
+				D8D74B9D21D74FB30016F8E3 /* NSString+LY.m in Sources */,
 				D8D74B7E21D74F670016F8E3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
