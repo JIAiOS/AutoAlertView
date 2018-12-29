@@ -17,6 +17,7 @@
 		D8D74B9C21D74FB30016F8E3 /* AutoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9821D74FB30016F8E3 /* AutoAlertView.m */; };
 		D8D74B9D21D74FB30016F8E3 /* NSString+LY.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9A21D74FB30016F8E3 /* NSString+LY.m */; };
 		D8D74B9E21D74FB30016F8E3 /* UIView+MRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D74B9B21D74FB30016F8E3 /* UIView+MRExtension.m */; };
+		D8D74BA021D75FE10016F8E3 /* 20181229-153611.gif in Resources */ = {isa = PBXBuildFile; fileRef = D8D74B9F21D75FE10016F8E3 /* 20181229-153611.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D8D74B9921D74FB30016F8E3 /* UIView+MRExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MRExtension.h"; sourceTree = "<group>"; };
 		D8D74B9A21D74FB30016F8E3 /* NSString+LY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LY.m"; sourceTree = "<group>"; };
 		D8D74B9B21D74FB30016F8E3 /* UIView+MRExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MRExtension.m"; sourceTree = "<group>"; };
+		D8D74B9F21D75FE10016F8E3 /* 20181229-153611.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "20181229-153611.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		D8D74B7B21D74F670016F8E3 /* AutoAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				D8D74B9F21D75FE10016F8E3 /* 20181229-153611.gif */,
 				D8D74B9521D74FAA0016F8E3 /* Alert */,
 				D8D74B7C21D74F670016F8E3 /* AppDelegate.h */,
 				D8D74B7D21D74F670016F8E3 /* AppDelegate.m */,
@@ -156,6 +159,7 @@
 			files = (
 				D8D74B8C21D74F690016F8E3 /* LaunchScreen.storyboard in Resources */,
 				D8D74B8921D74F690016F8E3 /* Assets.xcassets in Resources */,
+				D8D74BA021D75FE10016F8E3 /* 20181229-153611.gif in Resources */,
 				D8D74B8421D74F670016F8E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
